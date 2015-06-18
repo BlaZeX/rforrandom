@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^([^/]*)/$ /category.php?page=$1 [L]
+RewriteRule ^([^/]*)/$ /category.php?page=$1 [L]
+RewriteRule ^([^/]*)$ /category.php?page=$1 [L]
